@@ -1,0 +1,33 @@
+:root{
+    --first-color:red;
+    --second-color:black;
+    --third-color:rgb(105, 101, 101);
+    --forth-color:rgb(255, 255, 255);
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.aboveallloading {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0%;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 999999;
+  }
+  .aboveallloading .loadingimg {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+  }
+
+  .v-application .primary {
+    background-color: var(--first-color) !important;
+    border-color: #1976d2 !important;
+}
